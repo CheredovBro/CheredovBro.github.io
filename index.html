@@ -8,33 +8,47 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
+
     <div class="background-image"></div>
 
     <label for="show_header" class="show_header">
-
-        <span class="show_row"><span class="slide_burger"></span></span>
-        <span class="show_row"><span class="slide_burger"></span></span>
-        <span class="show_row"><span class="slide_burger"></span></span>
-
+        <span class="show_row">
+            <span class="show_inner"></span>
+        </span>
+        <span class="show_row">
+            <span class="show_inner"></span>
+        </span>
+        <span class="show_row">
+            <span class="show_inner"></span>
+        </span>
     </label>
-    <input type="checkbox"id="show_header">
+    <input type="checkbox" id="show_header">
+
     <div class="header">
-
-            <ul class="navigation">
-                    <li>block 1</li>
-                    <li>block 2</li>
-                    <li>block 3</li>
-                    <li>block 4</li>
-            </ul>
-
+        <div class="header_bg"></div>
+        <nav class="header_nav">
+            <a href="#" class="header_nav_item">block 1</a>
+            <a href="#" class="header_nav_item">block 2</a>
+            <a href="#" class="header_nav_item">block 3</a>
+            <a href="#" class="header_nav_item">block 4</a>
+        </nav>
     </div>
+
+    <div class="fict_header"></div>
 
     <div class="wrapper">
-        <div class="wrapper_block"></div>
-        <div class="wrapper_block"></div>
+        <div class="wrapper_block">
+            <div class="logo">
+                <img src="../images/logo.png" class="logo_label">
+                <img src="../images/mouse.png" class="animate_block_mouse">
+            </div>
+        </div>
+        <div class="wrapper_block">
+            
+        </div>
         <div class="wrapper_block"></div>
         <div class="wrapper_block"></div>
     </div>
-
+    
 </body>
 </html>
