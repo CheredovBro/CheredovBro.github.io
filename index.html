@@ -8,33 +8,84 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
+
     <div class="background-image"></div>
 
     <label for="show_header" class="show_header">
-
-        <span class="show_row"><span class="slide_burger"></span></span>
-        <span class="show_row"><span class="slide_burger"></span></span>
-        <span class="show_row"><span class="slide_burger"></span></span>
-
+        <span class="show_row">
+            <span class="show_inner"></span>
+        </span>
+        <span class="show_row">
+            <span class="show_inner"></span>
+        </span>
+        <span class="show_row">
+            <span class="show_inner"></span>
+        </span>
     </label>
-    <input type="checkbox"id="show_header">
+    <input type="checkbox" id="show_header">
+
     <div class="header">
-
-            <ul class="navigation">
-                    <li>block 1</li>
-                    <li>block 2</li>
-                    <li>block 3</li>
-                    <li>block 4</li>
-            </ul>
-
+        <div class="header_bg"></div>
+        <nav class="header_nav">
+            <a href="#about" class="header_nav_item">About me</a>
+            <a href="#mw" class="header_nav_item">My works</a>
+            <a href="#" class="header_nav_item">block 3</a>
+            <a href="#" class="header_nav_item">block 4</a>
+        </nav>
     </div>
+
+    <div class="fict_header"></div>
 
     <div class="wrapper">
-        <div class="wrapper_block"></div>
-        <div class="wrapper_block"></div>
-        <div class="wrapper_block"></div>
-        <div class="wrapper_block"></div>
-    </div>
+        <div class="wrapper_block">
+            <div class="logo">
+                <img src="./images/logo.png" class="logo_label">
+                <img src="./images/mouse.png" class="animate_block_mouse">
+            </div>
+        </div>
+        <div class="wrapper_block">
+            <p id="#about"></p>
+            <h1>Чередов Максим Андреевич</h1>
 
+            <h2>Web-дизайнер, html-верстальщик, фрилансер.</h2>
+
+            <p>
+                <h4>Город:</h4> Киев
+            </p>
+
+            <p>
+                <h4>Подробнее:</h4> свою профессиональную карьеру начал еще во время учебы в университете, работая дизайнером в фирме, которая занималась оперативной полиграфией. Создавал дизайн буклетов, проспектов, баннеров, календарей, визиток и прочей полиграфической продукции.
+
+                С 2010 года и по сегодняшний день занимаюсь web-дизайном. Разрабатываю дизайны сайтов различной тематики (сайт визитка, интернет-магазин, портал, Landing Page и т.д.), а также занимаюсь Html-версткой страниц с подключением Javascript и jQuery библиотек.
+
+                Верстаю по стандартам W3C (валидный код), соблюдаю кроссбраузерность IE 8+, Opera 10+, Chrome, FireFox 3+. Имею много опыта верстки проектов с адаптивным дизайном (Responsive Web Design) это когда дизайн сайта динамически подстраивается под разные размеры окна браузера. Верстка бестабличная (все на div), полное соответствие макету.
+
+                Есть знания в сфере администрирования и наполнения сайтов контентом. Так же умею делать html-письма для e-mail рассылок. За время моей работы имел возможность сотрудничать с зарубежными компаниями по созданию дизайнов интерфейсов для web-приложений и CMS-систем.
+
+                На данный момент являюсь внештатным дизайнером, html-верстальщиком и контент менеджером команды специалистов в области Информационных технологий - QWER-team.
+            </p>
+
+            <p>
+                <h4>Профессиональные навыки:</h4> знание принципов юзабилити сайтов, опыт визуализации и проектирования пользовательских интерфейсов, есть навыки разработки flash и gif анимации, опытный пользователь PC, отрисовка растровых объектов в вектор, обработка растровых изображений, Html&Css, Html5&Css3, JavaScript, JQuery, умение работать в сжатые сроки.
+            </p>
+
+            <p>
+                <h4>Знания программ:</h4> работа с графическими редакторами (Adobe: Photoshop, Illustrator, Acrobat и Corel Draw), html-редакторами (Notepad++, Adobe Dreamweaver), есть опыт использования локального сервера (Denwer).
+            </p>
+
+        </div>
+        <div class="wrapper_block">
+            
+            <div class="my_works">
+                <p id="mw">My works</p>
+                <div class="my_works_item"><a href="./Projects/calendar/index.html">my wonderful calendar</a></div>
+                <div class="my_works_item"></div>
+                <div class="my_works_item"></div>
+                <div class="my_works_item"></div>
+
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>

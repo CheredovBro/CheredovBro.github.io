@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .calendar{
+
+} */
+
+.calendar_cell{
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    background: rgb(248, 255, 52);
+}
+
+.calendar_cell_inner{                
+    width: 100px;
+    height: 100px;
+}
+.calendar_date{
+    display: block;
+    padding: 2px 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.context{
+    display: none;
+    position: absolute;
+    width: 150px;
+    max-width: 150px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px -3px;
+    background: whitesmoke;
+}
+
+.context_item{
+    padding: 2px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.context_item:hover{
+    background: rgb(248, 255, 52);
+}
